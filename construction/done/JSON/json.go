@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"os"
 )
 
 type People struct {
@@ -44,7 +45,7 @@ func main() {
 
 	ppl.modifyPeople()
 
-	writeJSON(ppl, "processed.json")
+	saveJson(ppl, "processed.json")
 }
 
 func loadJSON(ppl *People, filename string) {
@@ -60,13 +61,13 @@ func loadJSON(ppl *People, filename string) {
 	}
 }
 
-func writeJSON(ppl *People, filename string) {
+func saveJson(ppl *People, filename string) {
 	bs, err := json.MarshalIndent(ppl, "", "    ")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	ioutil.WriteFile(filename, bs, 0644)
+	os.WriteFile(filename, bs, 0644)
 	if err != nil {
 		log.Fatal(err)
 	} else {
