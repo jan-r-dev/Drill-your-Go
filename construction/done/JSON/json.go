@@ -20,7 +20,7 @@ func (ppl *People) readPeople() {
 	}
 }
 
-func (ppl *People) modifyPeople() {
+func (ppl *People) markPeopleAsProcessed() {
 	fmt.Printf("\nModifying file now...\n\n")
 
 	for _, v := range ppl.People {
@@ -43,7 +43,7 @@ func main() {
 
 	ppl.readPeople()
 
-	ppl.modifyPeople()
+	ppl.markPeopleAsProcessed()
 
 	saveJson(ppl, "processed.json")
 }
