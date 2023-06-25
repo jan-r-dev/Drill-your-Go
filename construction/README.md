@@ -1,1 +1,1 @@
-This is where tasks are constructed and verified before being moved into the main application.
+This is where tasks are constructed and verified before being moved into the main application. Tasks in the folder `ready_for_implementation` have been done in practice to estimate their difficulty.
