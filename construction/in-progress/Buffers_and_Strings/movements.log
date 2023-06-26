@@ -1,6 +1,9 @@
 rent,OUT,10000
 restaurants,OUT,2000
 side-job,IN,3000
+jewelry,OUTT,1500
 groceries,OUT,1500
 main-job,IN,40000
-car repair,OUT,15000
+randomExpense,OUT,-2444
+car repair,OUT,150020
+stup, OUT
