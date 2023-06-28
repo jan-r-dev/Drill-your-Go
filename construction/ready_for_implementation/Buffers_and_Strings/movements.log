@@ -4,6 +4,7 @@ side-job,IN,3000
 jewelry,OUTT,1500
 groceries,OUT,1500
 main-job,IN,40000
+misc,IN,"40s00"
 randomExpense,OUT,-2444
 car repair,OUT,150020
 stup, OUT

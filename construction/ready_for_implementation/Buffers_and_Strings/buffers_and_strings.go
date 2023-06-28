@@ -36,10 +36,10 @@ func (t *Transaction) populateFromLog(movement string) {
 	t.Amount = amount
 	t.isValid = true
 
-	t.isTransactionValid()
+	t.validateTransaction()
 }
 
-func (t *Transaction) isTransactionValid() {
+func (t *Transaction) validateTransaction() {
 
 	if t.Name == "" {
 		t.isValid = false
@@ -94,7 +94,7 @@ func main() {
 		t.populateFromLog(scanner.Text())
 
 		if !t.isValid {
-			// If invalid, print not the Transaction type but the unmodified line so it can be corrected later.
+			// If movement invalid, write the unmodified line to inError.log so it can be corrected later.
 			_, err := inError.Write([]byte(fmt.Sprintf("%s\n", []byte(scanner.Text()))))
 			if err != nil {
 				log.Fatal(err)
@@ -119,7 +119,7 @@ func main() {
 	}
 
 	if err := scanner.Err(); err != nil {
-		fmt.Fprintln(os.Stderr, "reading standard input:", err)
+		fmt.Fprintln(os.Stderr, "Reading standard input:", err)
 	}
 
 	fmt.Printf("Count:\t\t%d\nBalance:\t%d\n", linecount, balance)

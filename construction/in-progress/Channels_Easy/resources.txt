@@ -1,0 +1,3 @@
+https://go.dev/blog/pipelines
+https://www.youtube.com/watch?v=f6kdp27TYZs
+https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf
