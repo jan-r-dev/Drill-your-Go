@@ -1,0 +1,26 @@
+https://go.dev/blog/pipelines
+https://www.youtube.com/watch?v=f6kdp27TYZs
+https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf
+
+
+https://youtu.be/f6kdp27TYZs?t=727 Boring with Channels
+https://youtu.be/f6kdp27TYZs?t=869 Generator concurency pattern
+https://youtu.be/f6kdp27TYZs?t=985 Generator concurency pattern with two channels
+https://youtu.be/f6kdp27TYZs?t=1022 Fan-in function multiplexer (good example)
+https://youtu.be/f6kdp27TYZs?t=1190 Sequencing with a wait channel
+https://youtu.be/f6kdp27TYZs?t=1243 Select statement intro (like Dijkstra's guarded command)
+https://youtu.be/f6kdp27TYZs?t=1357 Fan-in using select (good example)
+https://youtu.be/f6kdp27TYZs?t=1377 Timeout using time.After in select
+https://youtu.be/f6kdp27TYZs?t=1433 Timeout using time.After in select for whole loop
+https://youtu.be/f6kdp27TYZs?t=1518 Quit channel
+https://youtu.be/f6kdp27TYZs?t=1554 Quit channel with cleanup (good example)
+https://youtu.be/f6kdp27TYZs?t=1641 Chinese whispers (good example)
+https://youtu.be/f6kdp27TYZs?t=1779 Declaring a Result function type, very cool
+https://youtu.be/f6kdp27TYZs?t=1855 Structure of the Google function sync
+
+https://youtu.be/f6kdp27TYZs?t=1890 Structure of the Google function with goroutines (good example)
+https://youtu.be/f6kdp27TYZs?t=1939 Structre of the Google function with goroutines and timeout (good example)
+https://youtu.be/f6kdp27TYZs?t=2037 Structre of the Google function with goroutines and timeout and replicas(good example)
+https://youtu.be/f6kdp27TYZs?t=2086 All put together, (good example)
+
+https://youtu.be/f6kdp27TYZs?t=2186 Examples for more practice

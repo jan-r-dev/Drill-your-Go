@@ -1,0 +1,3 @@
+This is the direct example from Rob Pike's presentation.
+
+I don't fully understand it yet, so it'll need more work from my side before I am willing to push it forward as an exercise.
