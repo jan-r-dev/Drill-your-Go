@@ -1,4 +1,4 @@
-1. Get `zerolog` from https://github.com/rs/zerolog. You'll need to use Go modules.
+1. Get `zerolog` from https://github.com/rs/zerolog. You'll need to use Go modules. (https://pkg.go.dev/github.com/rs/zerolog#section-readme)
 2. Set up a command line flag `severity` which will allow you to choose between log levels `debug`, `info`, and `error`
 3. Set up TimeFieldFormat for `zerolog` to use the unix timestamp.
 4. Depending on severity chosen, log the following:
