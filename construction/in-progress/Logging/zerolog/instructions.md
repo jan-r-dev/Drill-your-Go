@@ -4,5 +4,5 @@
 4. Depending on severity chosen, log the following:
 * `error` should only log one error. Text is up to you, but **make sure to include the stacktrace.**
 * `info` should add one more log with a custom string field. Text is up to you.
-* `debug` should add two more logs. Add a custom int, string, and bool field to them.
-5. Instead of logging to stdout, log instead in separate JSON files in `~/logs`.
+* `debug` should add two more logs. Add a custom int and string field to them.
+5. Instead of logging to stdout, log instead to a log file `./logs/output.log`.

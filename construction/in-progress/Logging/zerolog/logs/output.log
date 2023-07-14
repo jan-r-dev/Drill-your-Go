@@ -1,0 +1,4 @@
+{"level":"info","event":"task finished","time":1689339918}
+{"level":"debug","tasks remaining":1,"event":"post requisites started","time":1689339918}
+{"level":"debug","tasks remaining":0,"event":"post requisites finished with error","time":1689339918}
+{"level":"error","stack":[{"func":"postRequisitesWithError","line":"56","source":"zerolog.go"},{"func":"doWork","line":"69","source":"zerolog.go"},{"func":"main","line":"22","source":"zerolog.go"},{"func":"main","line":"250","source":"proc.go"},{"func":"goexit","line":"1172","source":"asm_arm64.s"}],"error":"unexpected error happened","time":1689339918}
